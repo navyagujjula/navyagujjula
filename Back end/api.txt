@@ -1,0 +1,45 @@
+create Album -- POST
+http://localhost:3031/api/createalbum
+
+getting all albums details == GET 
+http://localhost:3031/api/albums
+
+getting single album details == GET
+http://localhost:3031/api/albums/:id
+
+updating album -- PUT 
+http://localhost:3031/api/albums/:id
+
+
+{
+        "albumName": "Sarkar Vaari Paata",
+        "lyricist": "Chandrabose",
+        "musicDirector": "SS Thaman",
+        "movieDirector": "Parashuram",
+        "releaseDate": "12-05-2022",
+        "productionHouse": "Adithya Music",
+        "price": 50,
+        "singer": "Harika Narayan"
+}
+
+{
+        "albumName": "Acharya",
+        "lyricist": "Sirivennela Seetharamashasthri",
+        "musicDirector": "ManiSharma",
+        "movieDirector": "Koratala Shiva",
+        "releaseDate": "28-04-2022",
+        "productionHouse": "Lahari Music",
+        "price": 45,
+        "singer": "Hemachnadra"
+}
+
+{
+        "albumName": "RRR",
+        "lyricist": "Rama Jogayya shasthri",
+        "musicDirector": "MM Keeravani",
+        "movieDirector": "SS Rajakouli",
+        "releaseDate": "16-04-2022",
+        "productionHouse": "Spotify Music",
+        "price": 95,
+        "singer": "MM KalaBhairava"
+}
